@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Deploys a lambda function.
+
+
+Resources:
+    GetStartLambdaFunction:
+      Type: AWS::Serverless::Function
+      Properties:
+        Handler: app.lambda_handler
+        Runtime: python3.8
+        MemorySize: 128
+        Timeout: 30
+        CodeUri: src/
+        Description: A basic Lambda Function that receives a request and returns a response.
+
+
+Outputs:
+  GetStartLambdaFunctionName:
+    Description: The name of the Lambda Function
+    Value: !Ref GetStartLambdaFunction
+  PandasLambdaFunctionARN:
+    Description: The ARN of the Lambda Function
+    Value: !GetAtt GetStartLambdaFunction.Arn
