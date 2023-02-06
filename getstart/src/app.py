@@ -3,9 +3,9 @@ import json
 def lambda_handler(event, context):
     try:
         message = json.loads(event["body"])
-        name = message.get("name", "Stranger")
+        name = message.get("location", "")
         response = {
-            "message": f"Hello, {name}!"
+            "message": f"File is located at: {name}"
         }
         return {
             "statusCode": 200,
