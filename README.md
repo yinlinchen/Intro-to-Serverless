@@ -5,6 +5,8 @@ This repository contains multiple examples of serverless applications built usin
 ## Getting Started
 To get started with the examples in this repository, you will need to have an [AWS account](https://aws.amazon.com/account/sign-up).
 
+AWS CLI: [Install the AWS Command Line Interface (AWS CLI)](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
 To use the SAM CLI, you need the following tools.
 
 * SAM CLI - [Install the SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
