@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/yinlinchen/Intro-to-Serverless/blob/master/example1/events/event.json,4,2
+/yinlinchen/Intro-to-Serverless/blob/master/example1/src/app.py,4,2
+/yinlinchen/Intro-to-Serverless/tree/master/example1,2,1
+/yinlinchen/Intro-to-Serverless,1,1
+/yinlinchen/Intro-to-Serverless/actions,1,1
+/yinlinchen/Intro-to-Serverless/actions/runs/10118745789,1,1
+/yinlinchen/Intro-to-Serverless/actions/runs/10118745789/job/27986087064,1,1
+/yinlinchen/Intro-to-Serverless/actions/runs/10118745789/usage,1,1
+/yinlinchen/Intro-to-Serverless/actions/runs/10118745789/workflow,1,1
+/yinlinchen/Intro-to-Serverless/issues,1,1
